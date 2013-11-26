@@ -10,6 +10,7 @@ gem "rack", "~> 1.3.6"
 
 group :production do
 	gem "newrelic_rpm"
+	gem "unicorn"
 end
 
 gem "rake"
